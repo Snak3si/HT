@@ -622,7 +622,7 @@ pre code {
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
-  position: relative;
+  position:relative;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -2287,9 +2287,9 @@ select.form-control:focus::-ms-value {
 }
 
 .form-control-lg {
-  height: calc(1.5em + 1.6rem + 2px);
+  height: calc(1.5em + 1.6rem + 2px); 
   padding: 0.8rem 1.6rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   border-radius: 0.15rem;
 }
@@ -5081,6 +5081,7 @@ input[type="button"].btn-block {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
+  height: 250px;
 }
 
 .card-title {
@@ -11036,10 +11037,10 @@ table, tr, td, th {
 .testmonial-card .testmonial-body {
   position: relative;
   padding: 1rem;
-  border: 2px solid #495057;
-  border-top-color: #ff214f;
+  border: 2px solid #6CABDD; 
   border-radius: 0.2rem;
   margin-top: 30px;
+  height: 120px;
 }
 
 .testmonial-card .testmonial-body:after {
@@ -11049,7 +11050,7 @@ table, tr, td, th {
   left: 50%;
   width: 24px;
   height: 24px;
-  border-color: #ff214f;
+  border-color: #fff;
   border-radius: 0.2rem 0 0 0;
   border-style: solid;
   border-width: 2px 0 0 2px;
@@ -11280,7 +11281,7 @@ pre {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../imgs/book-table-img.jpg) no-repeat center center fixed;
+  background: url(../imgs/flag.jpg) no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
   opacity: .3;
